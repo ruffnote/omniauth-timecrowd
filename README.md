@@ -39,6 +39,15 @@ $ rails s -p PORT
 $ open http://localhost:PORT/
 ```
 
+```ruby
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :timecrowd,
+           ENV['TIMECROWD_CLIENT_ID'],
+           ENV['TIMECROWD_CLIENT_SECRET'],
+           client_options: { site: ENV['TIMECROWD_SITE'] }
+end
+```
+
 ## Acknowledgements
 
 https://github.com/intridea/omniauth-github
