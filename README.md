@@ -1,7 +1,5 @@
 # Omniauth::Timecrowd
 
-[![CircleCI](https://circleci.com/gh/ruffnote/omniauth-timecrowd.svg?style=svg)](https://circleci.com/gh/ruffnote/omniauth-timecrowd)
-
 ## API Document
 
 https://timecrowd.net/apidoc
@@ -11,7 +9,7 @@ https://timecrowd.net/apidoc
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-timecrowd', github: 'ruffnote/omniauth-timecrowd'
+gem 'omniauth-timecrowd', github: 'timecrowdinc/omniauth-timecrowd'
 ```
 
 And then execute:
